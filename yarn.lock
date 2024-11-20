@@ -4921,153 +4921,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@napi-rs/pinyin-android-arm-eabi@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-android-arm-eabi@npm:1.7.0"
-  conditions: os=android & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-android-arm64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-android-arm64@npm:1.7.0"
-  conditions: os=android & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-darwin-arm64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-darwin-arm64@npm:1.7.0"
-  conditions: os=darwin & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-darwin-x64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-darwin-x64@npm:1.7.0"
-  conditions: os=darwin & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-freebsd-x64@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-freebsd-x64@npm:1.7.0"
-  conditions: os=freebsd & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-linux-arm-gnueabihf@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-linux-arm-gnueabihf@npm:1.7.0"
-  conditions: os=linux & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-linux-arm64-gnu@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-linux-arm64-gnu@npm:1.7.0"
-  conditions: os=linux & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-linux-arm64-musl@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-linux-arm64-musl@npm:1.7.0"
-  conditions: os=linux & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-linux-x64-gnu@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-linux-x64-gnu@npm:1.7.0"
-  conditions: os=linux & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-linux-x64-musl@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-linux-x64-musl@npm:1.7.0"
-  conditions: os=linux & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-win32-arm64-msvc@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-win32-arm64-msvc@npm:1.7.0"
-  conditions: os=win32 & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-win32-ia32-msvc@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-win32-ia32-msvc@npm:1.7.0"
-  conditions: os=win32 & cpu=ia32
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin-win32-x64-msvc@npm:1.7.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin-win32-x64-msvc@npm:1.7.0"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@napi-rs/pinyin@npm:^1.5.0":
-  version: 1.7.0
-  resolution: "@napi-rs/pinyin@npm:1.7.0"
-  dependencies:
-    "@napi-rs/pinyin-android-arm-eabi": "npm:1.7.0"
-    "@napi-rs/pinyin-android-arm64": "npm:1.7.0"
-    "@napi-rs/pinyin-darwin-arm64": "npm:1.7.0"
-    "@napi-rs/pinyin-darwin-x64": "npm:1.7.0"
-    "@napi-rs/pinyin-freebsd-x64": "npm:1.7.0"
-    "@napi-rs/pinyin-linux-arm-gnueabihf": "npm:1.7.0"
-    "@napi-rs/pinyin-linux-arm64-gnu": "npm:1.7.0"
-    "@napi-rs/pinyin-linux-arm64-musl": "npm:1.7.0"
-    "@napi-rs/pinyin-linux-x64-gnu": "npm:1.7.0"
-    "@napi-rs/pinyin-linux-x64-musl": "npm:1.7.0"
-    "@napi-rs/pinyin-win32-arm64-msvc": "npm:1.7.0"
-    "@napi-rs/pinyin-win32-ia32-msvc": "npm:1.7.0"
-    "@napi-rs/pinyin-win32-x64-msvc": "npm:1.7.0"
-    "@napi-rs/triples": "npm:^1.1.0"
-  dependenciesMeta:
-    "@napi-rs/pinyin-android-arm-eabi":
-      optional: true
-    "@napi-rs/pinyin-android-arm64":
-      optional: true
-    "@napi-rs/pinyin-darwin-arm64":
-      optional: true
-    "@napi-rs/pinyin-darwin-x64":
-      optional: true
-    "@napi-rs/pinyin-freebsd-x64":
-      optional: true
-    "@napi-rs/pinyin-linux-arm-gnueabihf":
-      optional: true
-    "@napi-rs/pinyin-linux-arm64-gnu":
-      optional: true
-    "@napi-rs/pinyin-linux-arm64-musl":
-      optional: true
-    "@napi-rs/pinyin-linux-x64-gnu":
-      optional: true
-    "@napi-rs/pinyin-linux-x64-musl":
-      optional: true
-    "@napi-rs/pinyin-win32-arm64-msvc":
-      optional: true
-    "@napi-rs/pinyin-win32-ia32-msvc":
-      optional: true
-    "@napi-rs/pinyin-win32-x64-msvc":
-      optional: true
-  checksum: 10/3ff679412c23fef7fc88ccb568e480331dbc2041f832216975cf0b17aae0a1fbfe054bbdd22d601291c99b5fe33a77479908e877aacae7e0aa6cc889a403463a
-  languageName: node
-  linkType: hard
-
-"@napi-rs/triples@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@napi-rs/triples@npm:1.1.0"
-  checksum: 10/e6650da913f3f699a0e1071a0ad24d5ed640d4f6630729a37e9c3ca402b44e292e038e6cbd38d1b06754a8c3eeac27d26a82527d78985770290295b5078bc23d
-  languageName: node
-  linkType: hard
-
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
   resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
@@ -9406,7 +9259,7 @@ __metadata:
     katex: "npm:~0.16.11"
     ldap-escape: "npm:^2.0.6"
     ldapjs: "npm:^2.3.3"
-    limax: "npm:^3.0.0"
+    limax: "npm:^4.1.0"
     localforage: "npm:^1.10.0"
     lodash.clonedeep: "npm:^4.5.0"
     lodash.debounce: "npm:^4.0.8"
@@ -27307,14 +27160,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"limax@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "limax@npm:3.0.0"
+"limax@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "limax@npm:4.1.0"
   dependencies:
-    "@napi-rs/pinyin": "npm:^1.5.0"
     hepburn: "npm:^1.2.0"
+    lodash.deburr: "npm:^4.1.0"
+    pinyin-pro: "npm:^3.14.0"
     speakingurl: "npm:^14.0.1"
-  checksum: 10/4e32257ddcd79b0972fa9ca66e5e9efdda1cb5feffb6adb81dea2c0001b485ddbc4f85e194220a89b07611e87389a26ada49d9fccb1d5b204f3b5481fc02add4
+  checksum: 10/329e9848ad154e062be2ea275218389db3234fca22d74c5c42f13e39cf49ffe0622ba815a5772c74ba6a54ae8d7698037501cf2ca9e641062a364e092821ed96
   languageName: node
   linkType: hard
 
@@ -27438,6 +27292,13 @@ __metadata:
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
   checksum: 10/cd0b2819786e6e80cb9f5cda26b1a8fc073daaf04e48d4cb462fa4663ec9adb3a5387aa22d7129e48eed1afa05b482e2a6b79bfc99b86886364449500cbb00fd
+  languageName: node
+  linkType: hard
+
+"lodash.deburr@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "lodash.deburr@npm:4.1.0"
+  checksum: 10/165ce8f8a051360f98ce977f12bd645fe3faf3cc2452aa36f5a8849e3e69463e2252ff952ed6b7cc33c8f608fcbe56e7d13baf524818da95cb53849d366b62be
   languageName: node
   linkType: hard
 
@@ -31202,6 +31063,13 @@ __metadata:
   bin:
     pino: bin.js
   checksum: 10/5a054eab533ab91b20f63497b86070f0a6b40e4688cde9de66d23e03d6046c4e95d69c3f526dea9f30bcbc5874c7fbf0f91660cded4753946fd02261ca8ac340
+  languageName: node
+  linkType: hard
+
+"pinyin-pro@npm:^3.14.0":
+  version: 3.26.0
+  resolution: "pinyin-pro@npm:3.26.0"
+  checksum: 10/06f6b08e0b0cd151eb2f202cd6606f455b5d9c996a45c8cac4f52de4c40e432a4561480b75e15410e15649a851c078392149d32dd188f32cf81cec640bb083e0
   languageName: node
   linkType: hard
 
