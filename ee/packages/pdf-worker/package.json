@@ -21,7 +21,7 @@
 		"@react-pdf/renderer": "^3.4.5",
 		"@rocket.chat/core-typings": "workspace:^",
 		"@rocket.chat/fuselage-tokens": "^0.33.2",
-		"emoji-assets": "^7.0.1",
+		"emoji-assets": "^9.0.0",
 		"emoji-toolkit": "^7.0.1",
 		"moment": "^2.29.4",
 		"moment-timezone": "^0.5.46",
